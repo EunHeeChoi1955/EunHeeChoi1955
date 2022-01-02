@@ -1,0 +1,541 @@
+@charset "UTF-8";
+
+@media all and (max-width:1685px){
+
+
+}
+
+
+@media all and (max-width:1600px){
+   
+
+}
+
+
+
+
+@media all and (min-width:981px) and (max-width:1400px){
+   
+
+}
+
+
+@media all and (max-width:1300px){
+   
+}
+
+
+@media all and (max-width:1200px){
+    /* 상단메뉴 자주묻는질문 없애기 */
+    #wrap #header .wrap .gap .container .right-wrap #gnb ul li  {display:none;}
+
+
+   
+
+    
+
+       /* section6 */
+       #main #section6 { height:auto;  }             
+       #main #section6>div {height:700px; padding:150px 0; }             
+       #main #section6>div .section6-left { position:relative;top:0;left:0;width:100%; }             
+       #main #section6>div .section6-left>li { position:relative;left:0;width:100%;text-align:center;display: block;}             
+       #main #section6>div .section6-left>li>div { position:relative; width:100%;text-align:center; }            
+                   
+       #main #section6>div .section6-left>li>div.sec6-ani1 { width:100%; height:130px;}
+       #main #section6>div .section6-left>li>div.sec6-ani1>h2 { font-size: 30px;width:100%; max-width:326px;}
+       #main #section6>div .section6-left>li>div.sec6-ani2 { right:1000px; opacity:1;width:100%;display:block;padding: 20px 0;}
+       #main #section6>div .section6-left>li>div.sec6-ani2>h4 { font-size: 17px;width:100%; max-width:326px;}
+    
+       #main #section6>div .section6-left>li>div>a { display:inline-block; opacity:1;  font-size:14px; color:#ff8e00; font-weight:700; transition:0.4s; }            
+       #main #section6>div .section6-left>li>div>a:hover { text-decoration:underline; color:#000; }
+    
+       #main #section6>div .section6-right { position:absolute; right:0;padding-right: 200px; top:460px;margin:0 auto;display: block; text-align: center;}       
+       #main #section6>div .section6-right>img { width:100%; max-width:600px;}  
+    
+}
+
+@media all and (max-width:1170px){
+  /* 헤더 */
+  #wrap #header .wrap .gap {width:auto;height:100%;margin:0 70px;}
+
+    
+
+
+}
+
+@media all and (max-width:1024px){
+    
+
+
+}
+@media all and (max-width:980px){
+     /* 헤더 */
+    #wrap #header .wrap .gap {width:auto;height:100%;margin:0 60px;}
+
+    /* 상단 메뉴 logo kor eng */
+    #wrap #header .wrap .gap .container .right-wrap .aside{display:block;}
+    #wrap #header .wrap .gap .container .right-wrap #gnb {display:none;}
+    #wrap #main #section1 {background-attachment:scroll;}
+    /* 섹션6 */
+    #main #section6>div .section6-right { position:absolute; right:0;padding-right: 150px; top:460px;margin:0 auto;display: block; text-align: center;}       
+    #main #section6>div .section6-right>img { width:100%; max-width:500px;}  
+
+
+}
+
+
+@media all and (max-width:980px) and (orientation:landscape){ /* 가로형 */
+    #wrap #main #section1 .wrap .gap .container .title img {width:90%;}
+   
+}
+
+@media all and (max-width:980px) and (orientation:portrait){ /* 세로형 */
+    #wrap #main #section1 .wrap .gap .container .title img {width:90%;}
+    #wrap #main #section1 {  background:url(../img/main1.png)no-repeat 65% 50%;background-size:cover; }
+
+    
+
+
+
+    
+    
+
+
+
+		
+}
+
+
+@media all and (max-width:900px){
+    
+/* section1 */
+#wrap #main #section1 .wrap{position: relative;}
+#wrap #main #section1 .wrap .gap .container .title {display: none;}
+#wrap #main #section1 .wrap .gap .container .m_title{display: block;position: relative;top:10%; left:10%;width:100%;}
+#wrap #main #section1 .wrap .gap .container .m_title img{ width:80%;}
+   
+    /* section4 */
+	#section4{ height:auto;background: url(../img/sec4bg.png) repeat-x  center center fixed;background-size:auto 100%; }	
+	#section4>div{position:relative;padding:100px 0;height:auto;}
+        
+    
+    
+    /*  섹션4 kg카드이미지 */
+        .section4-element-1{z-index:1;display:block;position:relative; top:0;left:0;margin: 0 auto; width:50%; }
+        .section4-element-1>img{width:100%;}	
+  
+        /* 섹션4 카드밑에 텍스트 */
+        .section4-element-3{position:relative; top:0; padding-top: 100px; left:0; width:100%;}
+        .section4-element-3>li{text-align:center;}
+        .section4-element-3>li>img.sec4pcImg1{display:none; width:100%; max-width:388px;}
+        .section4-element-3>li>img.sec4MobileImg1{display:inline-block; width:100%; max-width:450px;}
+        .section4-element-3>li>img.sec4pcImg2{display:none; width:100%; max-width:366px;}
+        .section4-element-3>li>img.sec4MobileImg2{display:inline-block; width:100%; max-width:380px;}
+        
+        
+        
+        
+        .section4-element-3>li>a{display:inline-block; width:120px; padding:10px 0; text-align:center; color:#222; border:2px solid #222;margin-right:5px;border-radius:3px;transition:all 1s;}
+        .section4-element-3>li>a:hover{background:#222;color:#fff;transition:all 1s;}
+
+        .section4-element-3>li:nth-child(1){left:0;  top:-200px; opacity:0; transition:all 1s; padding-bottom:10px;}
+        .section4-element-3>li:nth-child(1).addSec4Ani2{left:0;  top:0; opacity:1;  transition:all 2s;}
+        
+        .section4-element-3>li:nth-child(2){left:0; top:200px; opacity:0; transition:all 1s; padding-bottom:10px;}
+        .section4-element-3>li:nth-child(2).addSec4Ani2{left:0; top:0; opacity:1; transition:all 2s;}
+        
+        .section4-element-3>li:nth-child(3){left:0; opacity:0; transition:all 1s;}
+        .section4-element-3>li:nth-child(3).addSec4Ani2{left:0; opacity:1; transition:all 2s;}
+        .section4-element-4{right:0px;width:200px;}	
+        
+
+
+    /* section5 */
+    #section5{height:auto; background-image:url(../img/sec5mobile.jpg); background-size:cover; background-attachment:scroll; }
+    #section5>div{height:auto; padding:100px 0;}
+        .section5-img{position:relative;top:0; left:0; width:100%; max-width:666px; margin:0 auto; padding-bottom:150px;}
+        
+        .section5-left-wrap{position:relative;top:0;left:0;width:100%;}
+        
+        .section5-left-wrap>li{position:relative;left:0;width:100%;text-align:center;}
+        .section5-left-wrap>li>img.sec5PcImg1{display:none;width:100%;max-width:258px;}
+        .section5-left-wrap>li>img.sec5PcImg2{display:none;width:100%;max-width:462px;}
+        .section5-left-wrap>li>img.sec5MobileImg1{display:inline-block; width:100%; max-width:360px;}
+        .section5-left-wrap>li>img.sec5MobileImg2{display:inline-block; width:100%; max-width:250px;}/*바꿈*/
+    
+        
+        
+        .section5-left-wrap>li:nth-child(1){left:0; top:-200px; opacity:0; transition:all 1s;}
+        .section5-left-wrap>li:nth-child(1).addSec5Ani2{left:0; top:0;  opacity:1;  transition:all 2s;}
+        
+        .section5-left-wrap>li:nth-child(2){left:0; top:200px; opacity:0; transition:all 1s;}
+        .section5-left-wrap>li:nth-child(2).addSec5Ani2{left:0; top:0;  opacity:1; transition:all 2s;}
+        
+        .section5-left-wrap>li:nth-child(3){left:0; top:200px; opacity:0; transition:all 1s;}
+        .section5-left-wrap>li:nth-child(3).addSec5Ani2{left:0; top:0; opacity:1; transition:all 2.5s;}
+    
+
+    /* 섹션7 */
+    #main #section7 { width:100%; height:auto; overflow:hidden; }             
+    #main #section7>div { position:relative;  height:auto;  margin:0 auto; padding:100px 0; }
+
+   /* 섹션 7 탭버튼 컨텐츠들*/
+   #main #section7>div .p2{margin: 0 auto;width:100%;} 
+   #main #section7>div .p2 .content { position: relative;  padding:0; margin: 0 auto;display: block;}
+   #main #section7>div .p2 .content h2 {font-size: 35px;}
+   #main #section7>div .p2 .content .tab-con {position:relative;left:-5px;top:-230px; }/*탭버튼 위로 올리기*/
+   #main #section7>div .p2 .content .tab-con div{display:block; text-align: center;margin: 0 auto;}
+   #main #section7>div .p2 .content .tab-con .features .items {font-size: 16px; margin:260px 16px 10px 16px ; }
+
+
+    /* 섹션 7 탭버튼 밑에 텍스트 내용들*/ 
+    #main #section7>div .p2 .content .tab-con .desc { position:relative;text-align:center;margin:0 auto;display:block;width:100%;padding:0;}
+    #main #section7>div .p2 .content .tab-con .desc .con  { width:260px; text-align: center;padding:0;font-size: 15px;padding-top:20px;}
+
+
+
+
+       /* 섹션 7 폰 , 폰 이미지들 */
+       #main #section7>div .p2 .content .image{ width:426px;height: 420px; left:0; overflow: hidden;  position: relative; top: 0; display: block; margin:0 auto;}
+       #main #section7>div .p2 .content .image .device{ width:100%;max-width:426px; }
+       #main #section7>div .p2 .content .image .device img{ width:100%;left:-50px; }
+   
+   
+       /* 스크린 */
+       #main #section7>div .p2 .content .image .screens {position: absolute;   left: 99px;/*바꿈*/  top: 99px;  width: 220px; height: 486px; overflow: hidden; border-radius: 2px;}
+       #main #section7>div .p2 .content .image .screens .item {width: 220px; height: auto;   position: absolute; left:0;top:0 } /*폰 이미지들 부분*/
+   
+   
+   
+        /* 섹션8 */
+        #main #section8{padding:0;position:relative;}
+        #main #section8 .sec8-wrap #faq .tabs ul li{padding:0;}
+        #main #section8 .sec8-wrap #faq .inner h2{padding-bottom:80px;font-size:35px}
+        
+        #jServiceTab{display: none;}/* 웹에서 보이는 탭버튼 */
+        /* sec8 반응형에서 발생 :  모바일에서 보이는 탭버튼 화살표 내리면 나오는거 */
+        .sec8mobileTab{display: block;box-sizing: border-box;}
+        .sec8tab-wrap{position:relative; display:block;width:100%;box-sizing:border-box;}
+       
+        /* 섹션8 회원가입 */
+        .sec8tab-wrap>a{position:relative;display:block; width:100%; padding:9px 0; font-size:16px; border:1px solid #ddd; border-radius: 2px; text-indent:15px; text-align:left; background:url(../img/family_size_off.png) no-repeat 98% 50%; }
+        .sec8tab-wrap>a.addFamily{ background:url(../img/family_size_on.png) no-repeat 98% 50%; }
+        /* 섹션8 탭버튼 누르면 나오는 메뉴 내용들 */
+        .sec8tab-wrap>ul{display:none; background:#fff;width:100%; padding:5px 0; position:absolute; top:36px; margin:0;text-align:left;  box-sizing:border-box;border:1px solid #ddd;}
+        .sec8tab-wrap>ul>li{width:100%;display:block;box-sizing:border-box;}
+        .sec8tab-wrap>ul>li>a{display:block;  color:#726454; padding:6px 0; text-indent:15px; font-size:16px;}
+        .sec8tab-wrap>ul>li>a:hover{background:#f0f0f0;}
+        /*섹션8 더 자세한 내용은~ */
+        #main #section8 .sec8-wrap #faq .inner #list .tabs .section8_faq_bottomtext {padding:0 65px;}
+                
+
+   
+
+
+    /* 섹션9 */
+    #main #section9 { width:100%; height:auto; }
+    #main #section9>div {display: block; position:relative; width:100%; max-width:1100px;  margin:0 auto; padding:100px 0; }
+    #main #section9>div>div{display: block;padding:50px 0;margin:0 auto;}
+
+    /* 섹션9  우측 어플리케이션 */
+    #main #section9>div>div.application-wrap{position:relative; top:0; right:0;margin:0 auto;text-align: center;}
+    #main #section9>div>div.application-wrap div.qr-con span a img{width:113px;}
+    #main #section9>div>div.application-wrap div.application-wrap-con span a img{width:200px;}
+    #main #section9>div>div.application-wrap p{font-size: 14px;text-align:center;margin:0 auto;padding-top: 10px;}
+
+
+    
+    /* 섹션9   좌측의 타이틀 텍스트 */
+    #main #section9>div .section9-title-wrap    {position:relative; top:0; left:0; display:block;text-align:center; height:auto; }
+    #main #section9>div .section9-title-wrap>h2  { position:relative; height:54px; font-size:36px;font-weight: 600; top:0; right:0; opacity:1; width:auto;margin:0 auto;}
+    #main #section9>div .section9-title-wrap>h3  { position:relative; height:61px; margin:0 auto;font-size:20px;line-height:150%;font-weight: 500; top:0; right:0; opacity:1; width:auto;  }
+
+
+
+}
+
+@media all and (max-width:780px){
+    
+ 
+    
+        /* kg카드이미지 */
+        .section4-element-1{z-index:1;display:block;position:relative; top:0;left:0;margin: 0 auto; width:70%; }
+        
+        
+        /*섹션8 더 자세한 내용은~ */
+        #main #section8 .sec8-wrap #faq .inner #list .tabs .section8_faq_bottomtext {padding:0 70px;}
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    /* 헤더 */
+    #wrap #header .wrap .gap {width:auto;height:100%;margin:0 50px;}
+
+   /* 앱 다운로드 버튼 */
+   .MobileCTA__cta-Q26BE { z-index: 100;position: fixed; display: block;bottom:0;line-height: 58px; text-align: center; }   
+
+
+  
+    /* 공지사항 */
+    .masthead, .general-list-row,  .notice-detail,  .back { padding-right: 24px;  padding-left: 24px;  }
+    .masthead { padding-top: 96px; }
+    .general-list-row::after {  right: 0;  width: calc(100% - 45px); }
+    .general-list-row__content { width: calc(100% + 2 * 24px);   margin-right: -24px;  margin-left: -24px;  padding-right: 24px;   padding-left: 24px;  }
+    .notice-box__title, .notice-detail__title {   font-size: 18px;  line-height: 1.25;  letter-spacing: 0; }
+       
+       
+
+    
+}
+ 
+@media all and (max-width:760px){
+
+    
+
+    #wrap #main #section1 .wrap .gap .container .title img {width:100%;}
+    #wrap #main #section1 .wrap .gap .container .title ul{padding-top: 50px;}
+    #wrap #main #section1 .wrap .gap .container .title ul li { display: none; width:50%;margin:0  auto;padding:10px 0;}
+    /* 공지사항 main section1-1  */
+    #section1-1 .wrap {padding:100px 0 100px 0;}
+    /* 서비스 이용약관 */
+    /* main section1-2  */   
+    #section1-2 .wrap {padding:100px 0 100px 0;}
+
+    /* 개인정보처리방침헤더 */
+    #section1-3 .wrap {padding:100px 0 100px 0;}
+        
+    
+
+}
+
+@media all and (max-width:700px){
+
+        /* kg카드이미지 */
+        .section4-element-1{z-index:1;display:block;position:relative; top:0;left:0;margin: 0 auto; width:60%; }
+     	
+  
+        /* 카드밑에 텍스트 */
+        .section4-element-3{position:relative; top:0; padding-top: 100px; left:0; width:100%;}     
+        .section4-element-3>li>img.sec4MobileImg1{display:inline-block; width:100%; max-width:380px;}        
+        .section4-element-3>li>img.sec4MobileImg2{display:inline-block; width:100%; max-width:350px;}
+        
+        
+        
+        
+
+
+        /* section5 */
+        
+        #section5>div{height:auto; padding:100px 0;}
+            .section5-img{position:relative;top:0; left:0; width:100%; max-width:566px; margin:0 auto; padding-bottom:150px;}
+            
+            .section5-left-wrap{position:relative;top:0;left:0;width:100%;}    
+            
+            .section5-left-wrap>li>img.sec5MobileImg1{display:inline-block; width:100%; max-width:290px;}
+            .section5-left-wrap>li>img.sec5MobileImg2{display:inline-block; width:100%; max-width:230px;}
+        
+        
+
+    
+       
+    /* 섹션7 */
+    #main #section7 { width:100%; height:1050px; overflow:hidden; }             
+    #main #section7>div { position:relative;  height:auto;  margin:0 auto; padding-top:70px; }
+    #main #section7>div .p2 .content h2 {font-size: 26px;}
+    /* 섹션 7 폰 , 폰 이미지들 */
+    #main #section7>div .p2 .content .image{ width:420px;left:0; }
+    #main #section7>div .p2 .content .image .device{ width:100%;max-width:420px; }
+    #main #section7>div .p2 .content .image .device img{ width:100%;left:-50px; }
+
+    /* 스크린 */
+    #main #section7>div .p2 .content .image .screens {position: absolute;   left: 95px;/*바꿈*/  top: 99px;  width: 220px; height: 486px; overflow: hidden; border-radius: 2px;}
+    #main #section7>div .p2 .content .image .screens .item {width: 220px; height: auto;   position: absolute; left:0;top:0 } /*폰 이미지들 부분*/
+    
+
+/* 섹션 7 탭버튼 밑에 내용들*/
+#main #section7>div .p2 .content .tab-con .desc { position:relative; }
+#main #section7>div .p2 .content .tab-con .desc .con { display:none; padding-top:20px;font-size: 18px; font-weight: 500;  font-stretch: normal; font-style: normal; line-height: 1.69; letter-spacing: normal; color: #333d4b;}
+#main #section7>div .p2 .content .tab-con .desc .con.active { display:block;}
+#main #section7>div .p2 .content .tab-con .desc .con span { display: block; padding-top:30px;font-size: 15px; font-weight: 400;  font-stretch: normal; font-style: normal; line-height: 1.69; letter-spacing: normal;}
+/* #main #section7>div .p2 .content .tab-con .desc .con span.active { display:block; } */
+
+    
+    /* 섹션8 */
+    #main #section8 .sec8-wrap #faq .inner h2{padding-bottom:80px;font-size:26px}
+    #main #section8 .sec8-wrap #faq .inner #list .tabs .section8_faq_bottomtext {padding:0 70px;}
+
+
+
+
+    /* 섹션9 */
+    #main #section9 { width:100%; height:auto; }
+    #main #section9>div {display: block; position:relative; width:100%; max-width:1100px;  margin:0 auto; padding:100px 0; }
+    #main #section9>div>div{display: block;padding:0 0 40px 0; margin:0 auto;}
+
+    /* 섹션9  우측 어플리케이션 */
+    #main #section9>div>div.application-wrap{position:relative; top:0; right:0;margin:0 auto;text-align: center;}
+    
+    #main #section9>div>div.application-wrap div.qr-con span a img{width:130px;}
+    #main #section9>div>div.application-wrap div.application-wrap-con span a img{width:235px;}
+    #main #section9>div>div.application-wrap p{font-size: 16px;text-align:center;margin:0 auto;padding-top: 5px;}
+
+
+    
+    /* 섹션9   좌측의 타이틀 텍스트 */
+    #main #section9>div .section9-title-wrap    {position:relative; top:0; left:0; display:block;text-align:center; height:auto; }
+    #main #section9>div .section9-title-wrap>h2  { position:relative; height:54px; font-size:26px;font-weight: 600; top:0; right:0; opacity:1; width:auto;margin:0 auto;}
+    #main #section9>div .section9-title-wrap>h3  { position:relative; height:61px; margin:0 auto;font-size:15px;line-height:150%;font-weight: 500; top:0; right:0; opacity:1; width:auto;  }
+
+
+
+
+}
+
+@media all and (max-width:625px){
+
+     /* 헤더 */
+     #wrap #header .wrap .gap {width:auto;height:100%;margin:0 40px;}
+
+
+    /* 섹션8 자주묻는 질물 제목 밑에 전체 텍스트 박스*/
+    #faq .tabs>div {margin:20px 0 0 0;padding:0 30px; background-color: #fff;}
+    #main #section8 .sec8-wrap #faq ul.nav li>ul>li {padding:0 30px;margin:0 10px;}
+
+   /*섹션8 더 자세한 내용은~ */
+   #main #section8 .sec8-wrap #faq .inner #list .tabs .section8_faq_bottomtext {padding:0 30px;}
+    
+   
+   /* 공지사항 */
+    .basic-list {  padding-top: 16px;  padding-right:40px ;padding-left: 40px;}
+
+     /* footer */
+    #footer>div { padding:0 15px; }
+   
+}
+@media all and (max-width:530px){
+
+     /* 헤더 */
+    #wrap #header .wrap .gap {width:auto;height:100%;margin:0 35px;}
+
+
+    /* 섹션 7 폰 , 폰 이미지들 */
+    #main #section7>div .p2 .content .image{ left:0; }
+    
+    /* 공지사항 */
+    .basic-list {  padding-top: 16px;  padding-right:35px ;padding-left: 35px;}
+
+
+
+}
+@media all and (max-width:480px){
+    #wrap #main #section1 .wrap .gap .container .title ul li { display: none;}
+
+     /* 섹션4 kg카드이미지 */
+     .section4-element-1{z-index:1;display:block;position:relative; top:0;left:0;margin: 0 auto; width:70%; }
+     .section4-element-1>img{width:100%;}	
+
+        /* 섹션7 */
+        #main #section7 { width:100%; height:1050px; overflow:hidden; }             
+        #main #section7>div { position:relative;  height:auto;  margin:0 auto; padding-top:70px; }
+        
+        /* 섹션 7 폰 , 폰 이미지들 */
+        #main #section7>div .p2 .content .image{ width:326px;left:0; }
+        #main #section7>div .p2 .content .image .device{ width:100%;max-width:326px; }
+        #main #section7>div .p2 .content .image .device img{ width:100%;left:-50px; }
+
+
+        /* 스크린 */
+        #main #section7>div .p2 .content .image .screens {position: absolute;   left: 74px;  top: 99px;  width: 174px; height: 486px; overflow: hidden; border-radius: 2px;}
+        #main #section7>div .p2 .content .image .screens .item {width: 174px; height: auto;   position: absolute; left:0;top:0 } /*폰 이미지들 부분*/
+
+        /*섹션8  더 자세한 내용은~ :: 여기부터 가운데 정렬! */
+        #main #section8 .sec8-wrap #faq .inner #list .tabs .section8_faq_bottomtext span { padding:0;text-align:center;margin:0;}
+
+         
+    
+         /* 섹션9   */
+        #main #section9>div {display: block; position:relative; width:100%; max-width:1100px;  margin:0 auto; padding:50px 0; }
+        #main #section9>div>div{display: block;padding:20px 0;margin:0 auto;}
+  
+        /* 섹션9  우측 어플리케이션 */
+        #main #section9>div>div.application-wrap{position:relative; top:0; right:0;margin:0 auto;text-align: center;}       
+        #main #section9>div>div.application-wrap div.qr-con span a img{width:95px;}
+        #main #section9>div>div.application-wrap div.application-wrap-con span a img{width:165px;}
+        #main #section9>div>div.application-wrap p{font-size: 12px;text-align:center;margin:0 auto;padding-top: 15px;}
+    
+    
+        
+        /* 섹션9   좌측의 타이틀 텍스트 */
+        #main #section9>div .section9-title-wrap    {position:relative; top:0; left:0; display:block;text-align:center; height:auto; }
+        #main #section9>div .section9-title-wrap>h2  { position:relative; height:54px; font-size:25px;font-weight: 700; top:0; right:0; opacity:1; width:auto;margin:0 auto;color:#000;}
+        #main #section9>div .section9-title-wrap>h3  { position:relative; height:61px; margin:0 auto;font-size:13px;line-height:150%;font-weight: 500; top:0; right:0; opacity:1; width:auto;  }
+    
+          /* 공지사항 */
+          .basic-list {  padding-top: 16px;  padding-right:30px ;padding-left: 30px;}
+
+
+
+}
+
+@media all and (max-width:410px){
+/* 헤더 */
+#wrap #header .wrap .gap {width:auto;height:100%;margin:0 25px;}
+/*섹션8  더 자세한 내용은~ */
+#main #section8 .sec8-wrap #faq .inner #list .tabs .section8_faq_bottomtext span { padding:0;text-align:center;margin:0;font-size: 12px;}
+
+/* 공지사항 헤더 */
+#section1-1 .wrap {padding:150px 0 100px 0;}
+
+/* 공지사항 리스트 후버했을때  */
+.general-list-row:hover{background:rgba(241, 241, 241, 0.3);}
+.general-list-row:focus{background:rgba(241, 241, 241, 0.3);}
+
+
+
+/* 서비스 이용약관 */
+#section1-2 .wrap {padding:150px 0 100px 0;}
+
+/* 개인정보처리방침헤더 */
+#section1-3 .wrap {padding:150px 0 100px 0;}
+
+
+}
+@media all and (max-width:355px){
+
+     /* 헤더 */
+     #wrap #header .wrap .gap {width:auto;height:100%;margin:0 20px;}
+
+        /* 섹션4 카드밑에 텍스트 */
+        .section4-element-3{position:relative; top:0; padding-top: 100px; left:0; width:100%;}
+        .section4-element-3>li{text-align:center;}
+        
+        .section4-element-3>li>img.sec4MobileImg1{display:inline-block; width:100%; max-width:300px;}
+        
+        .section4-element-3>li>img.sec4MobileImg2{display:inline-block; width:100%; max-width:280px;}
+        /* 섹션 5 이미지 밑에 모바일 텍스트  */
+        .section5-left-wrap>li>img.sec5MobileImg1{display:inline-block; width:100%; max-width:240px;}
+        .section5-left-wrap>li>img.sec5MobileImg2{display:inline-block; width:100%; max-width:190px;}/*바꿈*/
+
+        /* 섹션9   */
+       
+        #main #section9>div>div{display: block;padding:20px 0;margin:0 auto;}
+     
+        
+        /* 섹션9   좌측의 타이틀 텍스트 */
+        #main #section9>div .section9-title-wrap    {margin:0 auto;position:relative; top:0; left:0; display:block;text-align:center; height:auto;}
+        #main #section9>div .section9-title-wrap>h2  { position:relative; height:54px; font-size:25px;font-weight: 600; top:0; right:0; opacity:1; width:auto;margin:0 auto;}
+        #main #section9>div .section9-title-wrap>h3  { position:relative; height:61px; margin:0 auto;font-size:13px;line-height:150%;font-weight: 500; top:0; right:0; opacity:1; width:auto;  }
+    
+        /* 공지사항 */
+        .basic-list {  padding-top: 16px;  padding-right:20px ;padding-left: 20px;}
+      
+
+}
+
